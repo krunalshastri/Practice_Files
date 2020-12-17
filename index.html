@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This is description">
+  <meta name="keywords" content="html,web dev">
+  <meta name="robots" content="INDEX,FOLLOW">
+  <title>This is title</title>
+  <style>
+    p {
+      color: blue !important;
+      background-color: blanchedalmond;
+    }
+
+    .myshop a {
+      color: blue;
+      text-decoration: none;
+    }
+  </style>
+
+  <!-- How to include CSS file -->
+  <link rel="stylesheet" href="index.css">
+  <!-- How to include javascript file -->
+  <script src="index.js"></script>
+</head>
+<!-- Body tag starts here -->
+
+<body>
+  <table>
+    <tr>
+    <tr>
+      <td>English</td>
+      <td>⭐⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td>Gujrati</td>
+      <td>⭐⭐⭐⭐⭐</td>
+    </tr>
+    </tr>
+
+    <tr>
+    <tr>
+      <td>Coding </td>
+      <td>⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td>Competitive Coding </td>
+      <td>⭐⭐</td>
+    </tr>
+    </tr>
+  </table>
+  <div class="myshop">
+    <a href="prac1.html" target="blank">Contact my shop</a>
+  </div>
+  <!-- <h1>Krunal</h1> -->
+  <!-- <p>Krunal Shastri</p> -->
+  <h3>HTML Links</h3>
+  <a href="https://www.linkedin.com/feed/?trk=onboarding-landing" target="blank">My Linkedin</a>
+  <br>
+  <a href="https://codeforces.com/profile/krunal2209" target="blank">My CF</a>
+  <br>
+  <a href="/index.html" target="blank">My first try</a>
+  <!-- <img src="https://source.unsplash.com/200x200/?nature,water" alt="Not here" width="200" height="200">                   -->
+
+  <!-- Lists -->
+  <h3>HTML Lists</h3>
+  <ul type="disk">
+    <li>ul first</li>
+    <li>ul second</li>
+    <ol type="i">
+      <li>second first</li>
+      <li>second second</li>
+    </ol>
+    <li>ul third</li>
+  </ul>
+  <ol type="A">
+    <li>ol first</li>
+    <li>ol second</li>
+    <li>ol third</li>
+  </ol>
+
+  <!-- Tables -->
+  <h3>HTML Tables</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Krunal</td>
+        <td>20</td>
+      </tr>
+      <tr>
+        <td>Keyur</td>
+        <td>21</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Forms -->
+  <h3>HTML Forms</h3>
+  <form action="backend.php">
+    <label for="Naam">Name:</label>
+    <div>
+      <input type="text" name="myName" id="Naam">
+    </div>
+    <br>
+    <label for="Umar">Age:</label>
+    <div>
+      <input type="number" name="myAge" id="Umar">
+    </div>
+    <br>
+    <div>
+      Email ID: <input type="text" name="myEmailID">
+    </div>
+    <br>
+    <div>
+      DOB: <input type="date" name="myDOB">
+    </div>
+    <br>
+    <div>
+      <!--Already checked-->
+      Are you student?: <input type="checkbox" name="myStudent" checked>
+    </div>
+    <br>
+    <div>
+      Gender: Male<input type="radio" name="myGender" checked> Female<input type="radio" name="myGender"> Other:<input
+        type="radio" name="myGender">
+    </div>
+    <br>
+    <div>
+      Write abt yourself:<br><textarea name="myText" cols="50" rows="10"></textarea>
+    </div>
+    <br>
+    <div>
+      <label for="Gaadi">Car</label>
+      <select name="myCar" id="Gaadi">
+        <option value="cre">Creta</option>
+        <option value="swi" selected>Swift</option>
+        <option value="san">Santro</option>
+      </select>
+    </div>
+    <br>
+    <div>
+      <input type="submit" value="Submit Now">
+      <input type="reset" value="Reset Now">
+    </div>
+  </form>
+
+  <!-- Inline and Block elements -->
+  <h3>HTML Block & Inline</h3>
+  <strong style="border: 2px solid red;">para1</strong> <em style="border: 2px solid blue;">para2</em>
+  <span style="border: 2px solid red;">span1</span> <span style="border: 2px solid blue;">span2</span>
+
+  <!-- Ids and Classes -->
+  <h3>HTML ids and classes</h3>
+  <div id="Mainbox" class="redbg blackborder">
+    This is Mainbox.
+  </div>
+  <span class="redbg"></span>
+  <span id="mainbx"></span>
+  <span class="redbg blackborder"></span>
+
+  <!-- HTML Entities -->
+  <h3>HTML Entities</h3>
+  <div class="container">
+    <p>This is &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;paragraph</p>
+    <p>Write &lt;p&gt;</p>
+    <p>Pound &pound;</p>
+    <p>Copyright &copy;</p>
+    <p>Empty &#8203; </p>
+
+  </div>
+</body>
+
+</html>
